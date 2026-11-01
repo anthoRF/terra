@@ -1,0 +1,31 @@
+{
+  "name": "terra-explora",
+  "version": "1.2.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "dev:web": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "test": "node --test tests/*.test.mjs",
+    "start": "node scripts/start.mjs",
+    "deploy": "netlify deploy --prod --context production",
+    "build:functions": "netlify functions:build --src netlify/functions --functions .netlify/functions-build"
+  },
+  "dependencies": {
+    "@netlify/blobs": "11.1.7",
+    "three": "0.187.0",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "lucide-react": "1.66.0"
+  },
+  "devDependencies": {
+    "vite": "8.3.5",
+    "@vitejs/plugin-react": "6.1.2",
+    "netlify-cli": "27.16.1"
+  }
+}

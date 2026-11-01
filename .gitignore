@@ -1,0 +1,9 @@
+node_modules/
+.env
+.env.*
+!.env.example
+.terra-data/
+.netlify/
+qa/
+*.zip
+dist/

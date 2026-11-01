@@ -1,0 +1,4 @@
+/* Local font files distributed under SIL Open Font License 1.1; see adjacent OFL files. */
+@font-face {font-family:"Barlow Condensed";font-style:normal;font-weight:600;font-display:swap;src:url("./barlow-condensed-600-latin.woff2") format("woff2");}
+@font-face {font-family:"Barlow Condensed";font-style:normal;font-weight:700;font-display:swap;src:url("./barlow-condensed-700-latin.woff2") format("woff2");}
+@font-face {font-family:"Nunito Sans";font-style:normal;font-weight:200 900;font-display:swap;src:url("./nunito-sans-latin.woff2") format("woff2");}
